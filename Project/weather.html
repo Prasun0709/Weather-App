@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="back">
+        <div class="hero">
+            <div class="bar">
+                <input id="cityName" type="text" placeholder="Search for weather by city,zipcode or coordinates">
+                <button onclick="result()" class="btn">Search</button>
+            </div>
+            <div class="text">
+                <h1> <img height="30px" width="30px" src="loc.png" alt=""> <span id="cityDetails"> New York</span></h1>
+                <p id="calendar"> Tuesday</p>
+                
+                <p id="temp"> 0 <sup>o</sup>C </p>
+                <p><img src="degre.png" alt="">  <span><img id="hello" height="80px" width="80px" src="img/normal.png" alt="im"></span></p>
+                <p id="speed">Wind Speed</p>
+            
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

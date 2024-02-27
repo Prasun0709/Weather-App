@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-image:url(pexels-pixabay-237272.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar input{
+    padding: 5px 40px;
+    width: 300px;
+}
+.bar button{
+    border: none;
+    padding: 7px 26px;
+    background-color: blueviolet;
+    position: absolute;
+    color: white;
+    border-radius: 2px;
+    right: -94px;
+}
+.bar{
+    position: relative;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    gap: 350px;
+}
+.image{
+    display: flex;
+}
